@@ -16,7 +16,9 @@ console.log(str[3])
 
 console.log(str[4])
 
+let start = str.length - 1
 
+console.log(start)
 
 
 function returnWord(string) {
@@ -24,12 +26,15 @@ function returnWord(string) {
   // point last word 
 
 
-  let string = ''
+  let string = 'Hello'
 
   for (let i = string.length; str < i; i--) {
 
+    // how to get array [last one array ] 
 
+    let pointstart = string.length
 
+    return returnWord
 
   }
 
