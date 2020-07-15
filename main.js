@@ -1,45 +1,71 @@
 
 
-// example : hello 
+// // example : hello 
 
-let str = 'hello'
+// let str = 'hello'
 
-console.log(str.length)
+// console.log(str.length)
 
-console.log(str[0])
+// console.log(str[0])
 
-console.log(str[1])
+// console.log(str[1])
 
-console.log(str[2])
+// console.log(str[2])
 
-console.log(str[3])
+// console.log(str[3])
 
-console.log(str[4])
+// console.log(str[4])
 
-let start = str.length - 1
+// // find out point 5 place 
 
-console.log(start)
+// let start = str.length - 1
+
+// console.log(start)
+
+// //find out point 4 place 
 
 
-function returnWord(string) {
-
-  // point last word 
 
 
-  let string = 'Hello'
+// /// interView Exam  /// 
 
-  for (let i = string.length; str < i; i--) {
+// function returnWord(string) {
 
-    // how to get array [last one array ] 
+//   // point last word 
 
-    let pointstart = string.length
 
-    return returnWord
+//   let string = 'Hello'
 
+//   for (let i = newPoint.length; pointStart > i; i--) {
+
+//     // how to get array [last one array //
+
+//     //擷取字串ＨＥＬＬＯ - ＥＬＬＯ＝Ｈ //  slice 
+//     let word1 = 'hello' 
+
+//     word1.slice(pointStart,)
+
+//     let pointStart = 0
+//     let pointEnd = word1.indexOf(`  `, poinStart)
+//     let textslice = content.slice(pointStart, pointEnd) 
+
+//     slice 
+//   }
+
+//   console.log(string)
+
+
+// }
+
+function reverseString(str) {
+  let result = ''
+  for (let i = str.length - 1; i >= 0; i--) {
+    result += str[i]
   }
-
-
-
-  return returnWord
-
+  return result;
 }
+
+let str2 = "Hello";
+reverseString(str2); // "olleH"
+
+console.log(reverseString(str2))
